@@ -1,0 +1,36 @@
+{
+	"PROJECT_NO" : "P_00_000",
+	"PROP_STATUS" : 0,
+	"DRAFT_CONDITION" : 1,
+	"SHIP_MODEL_ID" : "",
+	"PROP_ID" : "",
+	"VALUE" : {
+		"RUDDER_NO": 0,
+		"STERN_WAVE": 0,
+		"TUNNEL_SPEED": 0,
+		"BALANCE_RATIO": 0,
+		"ROTATION_RPS": 0,
+		"ADVANCE_COEF": 0,
+		"THRUST_COEF": 0,
+		"CAVITATION_NO": 0,
+		"RN_06": 0,
+		"AIR_CONTENT": 0,
+		"SHEET_START" : 0
+		"SHEET_END": 0,
+		"TIP_START": 0,
+		"TIP_END": 0,
+		"FACE_MARGIN": 0
+	},
+	"PRESSURE" : {
+		"MAX_PRESSURE_POSITION": 0,
+		"1ST_PRESSURE": 0,
+		"2ND_PRESSURE": 0,
+		"3RD_PRESSURE": 0,
+		"4TH_PRESSURE": 0,
+		"5TH_PRESSURE": 0
+    },	
+	"COMMENT" : {
+		"COMMENTS": "-"}
+}
+  
+  

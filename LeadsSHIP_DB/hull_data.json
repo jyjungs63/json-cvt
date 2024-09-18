@@ -1,0 +1,28 @@
+{
+	"PROJECT_NO" : "P_00_000",
+	"VALUE" : {
+		"MODEL NO":  "KS1743",
+		"MODEL SCALE": 0,
+		"BULB TYPE": "Goose Neck",
+		"BULB LENGTH": 0 ,
+		"BULB BREADTH": 0,
+		"BULB HEIGHT" : 0,
+		"BULB NOSE HEIG": 0,
+		"BULB NOSE LENG": 0,
+		"AP BOSS END": 0,
+		"AP VERT HEIGHT": 0,
+		"AP SLOPE ANLGE": 0,
+		"XTRANSOMSTRAIGHT" : 0,
+		"STERN BOSS DIA": 0,
+		"AP TO GL": 0,
+		"CL TO GL": 0,
+		"XPROP" : 0,
+		"YPROP" : 0,
+		"ZPROP" : 0
+	},
+	//각 이미지 및 LINE는 별도 첨부
+	"COMMENT" : {
+		"COMMENTS": "-"}
+}
+  
+  

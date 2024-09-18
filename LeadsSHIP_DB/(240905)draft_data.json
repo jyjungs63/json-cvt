@@ -1,0 +1,33 @@
+{
+	"PROJECT_NO" : "P_00_000",
+	"DRAFT_CONDITION"          :               1,  // (INT,NA)       DRAFT CONDITION                 -> 0 : DESIGN, 1 : BALLAST, 2: SCANTLING, 3 : EEDI, 4: ETC
+	"VALUE" : {
+		"LWL"                  :           292.3,  // (REAL,M)       LENGTH OF WATERLINE
+		"DRAFT_FORE"           :            22.2,  // (REAL,M)       DRAFT AT FP
+		"DRAFT_AFT"            :            22.3,  // (REAL,M)       DRAFT AT AP
+		"LOB"                  :            5.63,  // (REAL,RATIO)   LWL/BREADTH
+		"BOD"                  :            3.23,  // (REAL,RATIO)   BREADTH/DRAFT
+		"FN"                   :           0.182,  // (REAL,COEF)    FROUDE NUMBER
+		"CB"                   :          0.8544,  // (REAL,COEF)    BLOCK COEFFICIENT
+		"CM"                   :          0.9541,  // (REAL,COEF)    MIDSHIP COEFFICIENT
+		"CW"                   :          0.7652,  // (REAL,COEF)    WATERLINE COEFFICIENT
+		"LCB"                  :           -1.36,  // (REAL,%)       Longitudinal Center of Buoyancy
+		"KB"                   :            2.10,  // (REAL,M)       Height of the center of buoyancy
+		"BM"                   :            2.11,  // (REAL,M)       Metacentric radius
+		"KMT"                  :            3.22,  // (REAL,M)       Kinetic Moments of Thrust
+		"DISPLACEMENT"         :          123456,  // (INT,M^3)      DIAPLACEMENT
+		"WET_SURFACE"          :          456123,  // (INT,M^2)      WETTED SURFACE OF HULL
+		"WET_BILGE_KEEL"       :             562,  // (INT,M^2)      WETTED SURFACE OF BILGE KEEL
+		"TRANS_PROJ_AREA"      :             400   // (INT,M^2)      TRANSVERSE PROJECT AREA
+	},
+	"CP_VALUE" : {
+		"STATION_NUMBER_UNIT"  : "ST",               // (REAL,STATION) 0 TO 20
+		"STATION_NUMBER_VALUE" : [0.0, 0.5, 1.0, 1.5, 2.0, 3.0, 4.0, 5.0, 6.0, ...],
+		"CP_UNIT"              : "CP",
+		"CP_VALUE"             : [0.12,0.123,0.254, .....]
+    },
+	"COMMENT" : {
+		"COMMENTS"             : "대선조선 24년 수주 예상선형"}
+}
+  
+  

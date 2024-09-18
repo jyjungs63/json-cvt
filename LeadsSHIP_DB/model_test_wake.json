@@ -1,0 +1,17 @@
+{
+	"PROJECT_NO" : "P_00_000",
+	"DRAFT_CONDITION" : 0,
+	"TEST_OPTION" : "",
+	"VALUE" : {
+		"TEST_NO": 0,
+		"TEST_DATE": 0,
+		"SHIP_SPEED": 0,
+		"MODEL_SPEED": 0,
+		"WATER_TEMP": 0,
+		"NOMINAL_WAKE": 0
+	},
+	"COMMENT" : {
+		"COMMENTS": "-"}
+}
+  
+  

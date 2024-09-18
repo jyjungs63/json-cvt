@@ -1,0 +1,29 @@
+{
+	"PROJECT_NO" : "P_00_000",
+	"WEIGHT" : {
+		"HULL_STEEL_WEIGHT": 0,
+		"HULL_OTHER_WEIGHT": 0,
+		"OUTFITTING_TOTAL": 0,
+		"MARGIN_WEIGHT": 0,
+		"TOTAL_LIGHT_WEIGHT": 0
+	},
+	"OUTFITTING" : {
+		"WT_ACCOM": 0,
+		"WT_ENGINE": 0,
+		"WT_MACHINARY": 0,
+		"WT_PIPING": 0,
+		"GENERATOR_POWER": 0,
+		"WT_ELECTRIC": 0
+	},
+	"CALCULATION" : {
+		"STEEL_LR": 0,
+		"STEEL_DNV": 0,
+		"STEEL_EMPIRICAL": 0,
+		"STEEL_MEAN": 0
+	},
+	"COMMENTS" : {
+		"COMMENTS": "Default 값"
+	}
+}
+  
+  

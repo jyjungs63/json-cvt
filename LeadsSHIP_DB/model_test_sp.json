@@ -1,0 +1,34 @@
+{
+	"PROJECT_NO" : "P_00_000",
+	"PROP_STATUS" : 0,
+	"DRAFT_CONDITION" : "",
+	"SHIP_MODEL_ID" : "",
+	"PROP_ID" : "",
+	"RUDDER_ID" : "",
+	"VALUE" : {
+		"RESISTANCE_DATE": 0,
+		"SCALE_RATIO": 0,
+		"RESISTANCE_TEMP": 0,
+		"HULL_ROUGHNESS": 0,
+		"CA": 0,
+		"CAS": 0,
+		"CAIR": 0,
+		"SELF_DATE": 0,
+		"SELF_TEMP": 0,
+		"PROP_ROUGHNESS": 0,
+		"ETAT": 0,
+		"WTL": 0,
+		"CP": 0,
+		"CN": 0,
+		"TRIAL_SPEEED": 0,
+		"TRIAL_RPM": 0,
+		"SERVICE_RPM": 0,
+		"SERVICE_SPEED": 0,
+		"RESISTANCE_MANAGER": 0,
+		"PROPULSION_MANAGER": 0
+	},
+	"COMMENT" : {
+		"COMMENTS": "-"}
+}
+  
+  

@@ -1,0 +1,61 @@
+{
+	"PROJECT_NO" : "P_00_000",
+	"VALUE" : {
+		"RUUDER_TYPE": 0,
+		"AREA": 0,
+		"AREA_RATIO": 0,
+		"BALANCE_RATIO": 0,
+		"ASPECT_RATIO": 0,
+		"RUDDER_VOL": 0,
+		"SECTION_TYPE": 0,
+		"REQ_AREA": 0,
+		"CARGO_HEIG": 0,
+		"PROFILE_AREA": 0,
+		"TD" : 0
+		"WS": 0,
+		"THRUST": 0,
+		"CAVI_COEF": 0,
+		"BASE_CLEAR": 0,
+		"THK_TOP": 0,
+		"THK_PINTLE": 0,
+		"THK_BOTTOM": 0,
+		"PINT_TO_LEAD": 0
+	},
+	"COORDINATE" : {
+		"NPT": 0,
+		"RUDDER_X1": 0,
+		"RUDDER_X2": 0,
+		"RUDDER_X3": 0,
+		"RUDDER_X4": 0,
+		"RUDDER_X5": 0,
+		"RUDDER_X6": 0,
+		"RUDDER_Y1": 0,
+		"RUDDER_Y2": 0,
+		"RUDDER_Y3": 0,
+		"THICK_LOWER": 0,
+		"THICK_MIDDLE": 0,
+		"RUDDER_X6": 0
+    },	
+	"DIST" : {
+		"DIST1": 0,
+		"DIST2": 0,
+		"DIST3": 0,
+		"DIST4": 0,
+		"DIST5": 0,
+		"DIST6": 0,
+		"DIST7": 0,
+		"DIST8": 0,
+		"DIST9": 0,
+		"DIST10": 0,
+		"DIST11": 0,
+		"DIST12": 0,
+		"DIST13": 0,
+		"DIST14": 0,
+		"DIST15": 0,
+		"DIST16": 0,
+    },
+	"COMMENT" : {
+		"COMMENTS": "-"}
+}
+  
+  

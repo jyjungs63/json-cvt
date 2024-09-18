@@ -1,0 +1,17 @@
+{
+	"PROJECT_NO" : "P_00_000",
+	"PROP_STATUS" : 0,
+	"PROP_ID" : "",
+	"VALUE" : {
+		"WATER_TEMP": 0,
+		"TEST_RPS": 0,
+		"LOCAL_RN": 0,
+		"SHAFT_IMMERSION": 0,
+		"TEST_DATE": 0,
+		"TEST_MANAGER": 0
+	},
+	"COMMENT" : {
+		"COMMENTS": "-"}
+}
+  
+  

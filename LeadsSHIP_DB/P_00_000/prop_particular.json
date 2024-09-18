@@ -1,0 +1,30 @@
+{
+	"PROJECT_NO" : "P_00_000",
+	"PROP_STATUS" : 1,
+	"__PROP_STATUS_EX__" : "0 : STOCK, 1 : DESIGN, 2: FINAL"
+	"VALUE" : {
+		"DESING_COMPANY" : "-",
+		"MODEL_SCALE": 0,
+		"DESIGN_DRAFT_F": 0,
+		"DESIGN_DRAFT_A": 0,
+		"DESIGN_POWER": 0,
+		"DESIGN_RPM": 0,
+		"SEC_TYPE": "NONE",
+		"TURN_TYPE": "NONE",
+		"HUB_RATIO": 0,
+		"PITCH_07R": 0,
+		"CHORD_07R": 0,
+		"THICK_07R": 0,
+		"SKEW_TOTAL": 0,
+		"GL_TO_LEFT": 0,
+		"GL_TO_RIGHT": 0,
+		"HUB_DIA_LEFT": 0,
+		"HUB_DIA_RIGHT": 0,
+		"BLADE_WEIGHT": 0,
+		"TOTAL_WEIGHT": 0
+	},
+	"COMMENT" : {
+		"COMMENTS": "-"}
+}
+  
+  

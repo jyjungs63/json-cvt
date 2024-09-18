@@ -1,0 +1,52 @@
+{
+	"PROJECT_NO" : "P_00_000",
+	"DRAFT_CONDITION" : 1,
+	"__DRAFT_CONDITION_EX__" : "0 : DESIGN, 1 : BALLAST, 2: SCANTLING, 3 : EEDI, 4: ETC"
+	"VALUE" : {
+		"LWL": 0,
+		"DRAFT_FORE": 0,
+		"DRAFT_AFT": 0,
+		"LOB": 0,
+		"BOD": 0,
+		"FN": 0,
+		"CB": 0,
+		"CM": 0,
+		"CW": 0,
+		"LCB": 0,
+		"__LCB_EX__" : "% 값을 입력"
+		"KB": 0,
+		"BM": 0,
+		"KMT": 0,
+		"DISPLACEMENT": 0,
+		"WET_SURFACE": 0,
+		"WET_BILGE_KEEL": 0,
+		"BULB_IMMER": 0,
+		"TRANS_PROJ_AREA": 0
+	},
+	"CP_VALUE" : {
+		"STATION_NUMBER_UNIT": "ST",
+		"STATION_NUMBER_VALUE": [
+		],
+		"CP_UNIT": "CP",
+		"CP_VALUE": [
+		]
+    },
+	"HB_VALUE" : {
+		"STATION_NUMBER_UNIT": "-",
+		"STATION_NUMBER_VALUE": [
+			
+		],
+		"X_COORDINATE_UNIT": "-",
+		"X_COORDINATE_VALUE": [
+			
+		],
+		"HB_UNIT": "-",
+		"HB_VALUE": [
+			
+		]
+	},
+	"COMMENT" : {
+		"COMMENTS": "-"}
+}
+  
+  

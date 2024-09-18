@@ -1,0 +1,35 @@
+{
+	"PROJECT_NO" : "P_00_000",
+	"VERSION" : 1,
+	"ROW" : "MAIN",
+	"NORDER" : "1-1",
+	"FIN" : {
+		"NFIN": 0,
+		"F1_ST": 0,
+		"F1_WL": 0,
+		"F1_WIDTH": 0,
+		"F1_HEIGHT": 0,
+		"F1_AOA": 0,
+		"F2_ST": 0,
+		"F2_WL": 0,
+		"F2_WIDTH": 0,
+		"F2_HEIGHT": 0,
+		"F2_AOA" : "% 값을 입력"
+		"RTM": 0,
+		"WN": 0,
+		"WTL": 0
+	},
+	"ECT" : {
+		"BARE_HULL_RTM": 0,
+		"BARE_HULL_WN": 0,
+		"BARE_HULL_WTL": 0,
+		"CAP_X": 0,
+		"CAP_Y": 0,
+		"CAP_Z": 0,
+		"CAP_RADIUS": 0
+    },
+	"COMMENT" : {
+		"COMMENTS": "-"}
+}
+  
+  
