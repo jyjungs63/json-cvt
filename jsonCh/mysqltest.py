@@ -13,7 +13,7 @@ target_extension = ".json"
 db_config = {
     'host': 'localhost',       # DB 서버 주소
     'user': 'root',   # MariaDB 사용자 이름
-    'password': '', # MariaDB 비밀번호
+    'password': 'manager', # MariaDB 비밀번호
     'database': 'happyzip', # 사용할 데이터베이스 이름
 }
 

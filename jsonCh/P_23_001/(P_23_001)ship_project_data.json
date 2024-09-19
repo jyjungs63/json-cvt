@@ -1,0 +1,91 @@
+{
+	"TABLE_NAME" : "SHIP_PROJECT_DATA",
+	"PROJECT_NO" : "P_23_001",
+	"SHIP_TITLE" : "13K METHANOL PC",
+	"GENERAL_INFORMATION" : {
+		"SHIP_TYPE"            :               0,   // (INT,NA)      SHIP_TYPE                       -> 0: TANKER, 1:Passenger, 2:LNGC, 3:LPGC, 4:PCC, 5:CONTAINER
+		"STATUS"               :      "STANDARD",   // (TEXT)        PURPOSE OF SHIP                 -> "STANDARD", "PROJECT", "RESEARCH", "ETC"
+		"OWNER"                :         "KRISO",   // (TEXT)        CLIENT ORGANIZATION
+		"FLAG"                 :         "KOREA",   // (TEXT)        FLAG OF SHIP
+		"PROJECT_START_DATE"   :    "2023-01-06",   // (DATE)        PROJECT START DATE
+		"PROJECT_MANAGER"      :          "옥군도",   // (TEXT)        PROJECT MANAGER
+		"LINES_DESIGNER"       :          "한준선"    // (TEXT)        LINES DESIGN MANAGER
+	},                                                              
+	"SHIP_INFORMATION" : {                                          
+		"SHIP SIZE"            :            13.0,   // (REAL,NA)     SIZE OF SHIP                    -> 319K VLCC : 319, 4,500TEU CONTAINER : 4500
+		"SHIP TYPE"            :               0,   // (INT,TYPE)    TYPE OF SHIP                    -> 0: SINGLE HULL, 1: TWIN SKEG, 2: TWIN STRUT
+		"LOA"                  :           127.9,   // (REAL,M)      LOA
+		"LBP"                  :           120.4,   // (REAL,M)      LBP
+		"BREADTH"              :            20.4,   // (REAL,M)      BREADTH
+		"DEPTH"                :            14.7,   // (REAL,M)      DEPTH
+		"DRAFT_TD_FORE"        :            8.55,   // (REAL,M)      DESIGN DRAFT AT FORE
+		"DRART_TD_AFT"         :            8.55,   // (REAL,M)      DESIGN DRAFT AT AFT
+		"DRAFT_TS_FORE"        :            8.55,   // (REAL,M)      SCANTLING DRAFT AT FORE
+		"DRAFT_TS_AFT"         :            8.55,   // (REAL,M)      SCANTLING DRAFT AT AFT
+		"DRAFT_EEDI_FORE"      :             0.0,   // (REAL,M)      EEDI DRAFT AT FORE
+		"DRAFT_EEDI_AFT"       :             0.0,   // (REAL,M)      EEDI DRAFT AT AFT
+		"DRAFT_BALLAST_FORE"   :            4.87,   // (REAL,M)      BALLAST DRAFT AT FORE
+		"DRAFT_EEDI_AFT"       :            5.73,   // (REAL,M)      BALLAST DRAFT AT AFT
+		"CB_TD"                :          0.7820,   // (REAL,NA)     CB AT DESIGN DRAFT
+		"CB_TS"                :          0.7820,   // (REAL,NA)     CB AT SCANTLING DRAFT
+		"CB_EEDI"              :             0.0,   // (REAL,NA)     CB AT EEDI DRAFT
+		"CB_BALLAST"           :          0.7340,   // (REAL,NA)     CB AT BALLAST DRAFT
+		"LCB_TD"               :            0.99,   // (REAL,%)      LCB AT DESIGN DRAFT
+		"LCB_TS"               :            0.99,   // (REAL,%)      LCB AT SCANTLING DRAFT
+		"LCB_EEDI"             :             0.0,   // (REAL,%)      LCB AT EEDI DRAFT
+		"LCB_BALLAST"          :            1.52,   // (REAL,%)      LCB AT BALLAST DRAFT
+		"CONTRACT_SPEED"       :            13.0,   // (REAL,KTS)    CONTRACT SPEED AT SERVICE
+		"SPEED_TD"             :           13.61,   // (REAL,KTS)    SERVICE SPEED AT DESIGN 
+		"SPEED_TS"             :           13.61,   // (REAL,KTS)    SERVICE SPEED AT SCANTLING
+		"SPEED_EEDI"           :             0.0,   // (REAL,KTS)    SERVICE SPEED AT EEDI
+		"SPEED_BALLAST"        :           13.81,   // (REAL,KTS)    SPEED AT BALLAST DRAFT
+		"EEDI_TARGET"          :               3,   // (INT,NA)      EEDI TARGET
+		"DISPLACEMENT_TD"      :           17134,   // (INT,TON)     DISPLACEMENT VOLUME AT DESIGN
+		"DISPLACEMENT_TS"      :           17134,   // (INT,TON)     DISPLACEMENT VOLUME AT SCANTLING
+		"DISPLACEMENT_EEDI"    :               0,   // (INT,TON)     DISPLACEMENT VOLUME AT EEDI
+		"DISPLACEMENT_BALLAST" :            9982,   // (INT,TON)     DISPLACEMENT VOLUME AT BALLAST
+		"NO_BOW_THRUSTER"      :               1,   // (INT,NA)      NO OF BOW THRUSTER
+		"NO_STERN_THRUSTER"    :               0,   // (INT,NA)      NO OF STERN THRUSTER
+		"ESD_FORE"             :           "FIN",   // (TEXT)        ESD DESCRIPTION AT FORE
+		"ESD_AFT"              :        "R-BULB",   // (TEXT)        ESD DESCRIPTION AT AFT
+		"SEA_MARGIN"           :            15.0,   // (REAL,%)      SEA MARGIN
+		"MODEL_BASIN_SP"       :         "KRISO",   // (TEXT)        MODEL BASIN (TOWING TANK)
+		"MODEL_BASIN_CAVI"     :              ""    // (TEXT)        MODEL BASIN (CAVI TUNNEL)
+	},                                                              
+	"ENGINE_ROOM" : {                                               
+		"ENGINE_TYPE"          :        "W6L32M",   // (TEXT)        MAIN ENGINE TYPE
+		"NO_ENGINE"            :               1,   // (INT,EA)      NO OF MAIN ENGINE
+		"GEAR_RATIO"           :             1.0,   // (REAL,NA)     GEAR RATIO (ENGINE-PROPELLER)
+		"NMCR_POWER"           :            3480,   // (REAL,KW)     MAIN ENGINE POWER AT NMCR 
+		"NMCR_RPM"             :             750,   // (REAL,RPM)    MAIN ENGINE RPM AT NMCR
+		"SMCR_POWER"           :            3000,   // (REAL,KW)     MAIN ENGINE POWER AT SMCR
+		"SMCR_RPM"             :           125.9,   // (REAL,RPM)    MAIN ENGINE RPM AT SMCR
+		"NCR_POWER"            :            2700,   // (REAL,KW)     MAIN ENGINE POWER AT NCR
+		"NCR_RPM"              :           121.6,   // (REAL,RPM)    MAIN ENGINE RPM AT NCR
+		"ENGINE_PERFORMANCE"   :                   "./ship_initial_results/(P_23_001)ENGINE_PERFORMANCE.jpg",
+		"RPM_MARGIN"           :             5.0,   // (REAL,%)      RPM MARGIN                      -> NORMALLY 5~7%
+		"SHAFT_GEN_POWER"      :               0,   // (INT,kW)      SHAFT GENERATOR POWER
+	},
+	"PROPELLER" : {
+		"PROP_TYPE"            :               1,   // (INT,NA)      TYPE OF PROPELLER               -> 0 : FPP, 1 : CPP, 2 : CRP, 3: Azimuth, 4 : ETC",
+		"NO_PROP"              :               1,   // (INR,EA)      NO OF PROPELLER
+		"NO_BLADE"             :               4,   // (REAL,EA)     NO OF BLADE
+		"PROP_DIA"             :             4.8,   // (REAL,M)      PROPELLER DIAMETER
+		"MEAN_PITCH"           :          0.7500,   // (REAL,ND)     MEAN PITCH RATIO
+		"EAR"                  :          0.5000,   // (REAL,ND)     EXPANDED AREA RATIO
+		"SHAFT_CENTER_HEIG"    :             2.5,   // (REAL,M)      SHAFT CENTER HEIGHT TO BASELINE
+		"SHAFT_DIA"            :            0.40    // (REAL,M)      PROPELLER SHAFT DIAMETER 
+	}, 
+	"ETC" : {
+		"RUDDER_TYPE"          :               0,   // (INT,NA)      RUDDER TYPE                     -> 0 : Semi-Spade, 1 : Flap Rudder, 2 : Fish Tail Rudder, 3: Full-Spade, 4 : Etc, 5 : None
+		"BILGE_RADIUS"         :             0.0,   // (REAL,M)      BILGE RADIUS
+		"CLASS"                :           "ABS",   // (TEXT)        CLASSIFICATION OF SHIP          -> KR, LR, DNV, ABS, BV, RINA, KMOSA, ETC
+		"ICE_CLASS"            :          "NONE",   // (TEXT)        ICE CLASS                       -> FMA 1C, FMA 1B, FMA 1A, FMA 1A Suepr, ETC
+		"CRUISING_RANGE"       :            4700,   // (INT,MILE)    CRUISING_RANGE
+		"COMPLEMENT"           :               0,   // (INT,PPL)     NO OF PEOPLE ON BOARD
+		"AIR_DRAUGHT"          :             0.0,   // (REAL,M)      AIR DRAFT
+		"COMMENTS"             :                   "13K METHANOL FUEL PC",   // (TEXT)       COMMENTS MAX 250 CHAR
+	}
+}
+  
+  

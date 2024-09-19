@@ -15,6 +15,9 @@ for file in *.$old_ext; do
     sed 's,//.*,,g' < "$file" > "$new_file"
     # 파일 이름 변경
     #mv "$file" "$new_file"
+    if [[ ! -d "$file" ]]; then
+      mkdir ori-json
+    fi
     mv "$file" ori-json/.
     echo "Json Work  $new_file finished !!!"
   fi

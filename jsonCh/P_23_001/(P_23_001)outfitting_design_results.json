@@ -1,0 +1,24 @@
+{
+	"TABLE_NAME" : "OUTFITTING DESIGN RESULTS",
+	"PROJECT_NO" : "P_23_001",                     // OUTFITTING DESIGN RESULTS
+	"MACHINARY_ARRANGEMENT"    : "./outfitting_design_results/(P_23_001)MACHINARY_ARRANGEMENT.pdf",
+	"CWATER_HEAT_BALANCE"      : "./outfitting_design_results/(P_23_001)CWATER_HEAT_BALANCE.pdf",
+	"LFSS_FLOW_DIAGRAM"        : "./outfitting_design_results/(P_23_001)LFSS_FLOW_DIAGRAM.pdf",
+	"ACCOMODATION"             : "./outfitting_design_results/(P_23_001)ACCOMODATION.pdf",
+	"MOORING_ARRANGEMENT"      : "./outfitting_design_results/(P_23_001)MOORING_ARRANGEMENT.pdf",
+	"EQUIPMENT_NUMBER"         : "./outfitting_design_results/(P_23_001)EQUIPMENT_NUMBER.pdf",
+	"ELECTRIC_LOAD"            : "./outfitting_design_results/(P_23_001)ELECTRIC_LOAD.pdf",
+	"AIP_CERTIFICATION"        : "./outfitting_design_results/(P_23_001)AIP_CERTIFICATION",
+	"APPENDIX_1"               : "./outfitting_design_results/(P_23_001)METHANOL_ARRANGEMENT.pdf",
+	"APPENDIX_2"               : "./outfitting_design_results/(P_23_001)ALTERNATIVE_PROPULSION.pdf",
+	"APPENDIX_3"               : "./outfitting_design_results/(P_23_001)FGSS_PandID",
+	"APPENDIX_4"               : "",
+	"APPENDIX_5"               : "",
+	"APPENDIX_6"               : "",
+	"APPENDIX_7"               : "",
+	"APPENDIX_8"               : "",
+	"APPENDIX_9"               : "",
+	"COMMENTS"                 : "13K 메탄올 추진선박"
+}
+  
+  

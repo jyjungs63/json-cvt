@@ -1,0 +1,30 @@
+{
+	"TABLE_NAME" : "SHIP_INITIAL_DESIGN_RESULTS",
+	"PROJECT_NO" : "P_23_001",                     // INITIAL DESIGN RESULTS
+	"BASIC_SCHEME"             : "./ship_initial_results/(P_23_001)Basic_Scheme.pdf",
+	"LIGHTWEIGHT_DISTRIBUTION" : "",
+	"GENERAL_ARRANGEMENT"      : "./ship_initial_results/(P_23_001)GENERAL_ARRANGEMENT.pdf",
+	"RUDDER_ARRANGEMENT"       : "./ship_initial_results/(P_23_001)RUDDER_ARRANGEMENT.pdf",
+	"TRIM_STABILITY"           : "./ship_initial_results/(P_23_001)TRIM_STABILITY.pdf",
+	"DAMAGE_STABILITY"         : "./ship_initial_results/(P_23_001)DAMAGE_STABILITY.pdf",
+	"EEDI_CALCULATION"         : "./ship_initial_results/(P_23_001)EEDI_CALCULATION.pdf",
+	"FREEBOARD"                : "./ship_initial_results/(P_23_001)FREEBOARD.pdf",
+	"SOLAS_VISIBILITY"         : "",
+	"TONNAGE_CAL"              : "",
+	"SRTP_RESULT"              : "",
+	"MIDSHIP_DRAWING"          : "./ship_initial_results/(P_23_001)MIDSHIP_DRAWING.pdf",
+	"RULE_SCANTLING"           : "./ship_initial_results/(P_23_001)RULE_SCANTLING.pdf",
+	"OUTLINE_SPEC"             : "./ship_initial_results/(P_23_001)OUTLINE_SPEC.pdf",
+	"POCKET_PLAN"              : "./ship_initial_results/(P_23_001)POCKET_PLAN.pdf",
+    "REPORT_SUMMARY"           : "./ship_initial_results/(P_23_001)REPORT_SUMMARY.pdf",
+	"PROJECT_FULL_REPORT"      : "./ship_initial_results/(P_23_001)PROJECT_FULL_REPORT.pdf",
+	"AIP_CERTIFICATION"        : "./ship_initial_results/(P_23_001)AIP_CERTIFICATION.pdf",
+	"APPENDIX_1"               : "./ship_initial_results/(P_23_001)ME_SELECTION.pdf",
+	"APPENDIX_2"               : "./ship_initial_results/(P_23_001)COFFERDAM.pdf",
+	"APPENDIX_3"               : "",
+	"APPENDIX_4"               : "",
+	"APPENDIX_5"               : "",
+	"COMMENTS"                 : "13K 메탄올 추진선박"
+}
+  
+  
