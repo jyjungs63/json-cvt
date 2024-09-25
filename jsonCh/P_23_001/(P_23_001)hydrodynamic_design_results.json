@@ -1,56 +1,90 @@
 {
-	"TABLE_NAME" : "HYDRODYNAMIC_DESIGN_RESULTS",
-	"PROJECT_NO" : "P_23_001",                     // HYDRODYNAMIC DESIGN RESULTS
-	"HULLFORM_DEVELOP_REPORT"  : "./hydrodynamic_design_results/(P_23_001)HULLFORM_DEVELOP_REPORT.pdf",
-	"LINES_IGES_WIRE"          : "./hydrodynamic_design_results/(P_23_001)LINES_IGES_WIRE.igs",
-	"LINES_IGES_SURFACE"       : "./hydrodynamic_design_results/(P_23_001)LINES_IGES_SURFACE.igs",
-	"LINES_HOPT"               : "./hydrodynamic_design_results/(P_23_001)LINES_HOPT.hopt",
-	"LINES_DMP"                : "./hydrodynamic_design_results/(P_23_001)LINES_DMP.dmp",
-	"LINES_STL"                : "./hydrodynamic_design_results/(P_23_001)LINES_STL.stl",
-	"LINES_OFFSET"             : "./hydrodynamic_design_results/(P_23_001)LINES_OFFSET.dat",
-	"PNG_BIRD_EYE_VIEW"        : "./hydrodynamic_design_results/(P_23_001)PNG_BIRD_EYE_VIEW.png",
-	"PNG_SIDE_FRONT_VIEW"      : "./hydrodynamic_design_results/(P_23_001)PNG_SIDE_FRONT_VIEW.png",
-	"ESD_DESIGN_REPORT"        : "./hydrodynamic_design_results/(P_23_001)ESD_DESIGN_REPORT.pdf",
-	"ESD_DRAWING"              : "./hydrodynamic_design_results/(P_23_001)ESD_DRAWING.pdf",
-	"PROPELLER_DESIGN_REPORT"  : "./hydrodynamic_design_results/(P_23_001)PROPELLER_DESIGN_REPORT.pdf",
-	"PROPELLER_DRAWING"        : "./hydrodynamic_design_results/(P_23_001)PROPELLER_DRAWING.pdf",
-	"RUDDER_DRAWING"           : "./hydrodynamic_design_results/(P_23_001)RUDDER_DRAWING.igs",
-    "SP_HYDROSTATIC_DATA"      : "./hydrodynamic_design_results/(P_23_001)SP_HYDROSTATIC_DATA.pdf",
-	"WAKE_MEASUREMENT_RESULT"  : "./hydrodynamic_design_results/(P_23_001)WAKE_MEASUREMENT_RESULT.pdf",
-	"SP_RESULTS_DESIGN_BARE"   : "",
-	"SP_RESULTS_DESIGN_ESD"    : "",
-	"SP_RESULTS_SCANT_BARE"    : "./hydrodynamic_design_results/(P_23_001)SP_RESULTS_SCANT_BARE.pdf",
-	"SP_RESULTS_SCANT_ESD"     : "./hydrodynamic_design_results/(P_23_001)SP_RESULTS_SCANT_ESD.pdf",
-	"SP_RESULTS_EEDI_BARE"     : "",
-	"SP_RESULTS_EEDI_ESD"      : "",
-	"SP_RESULTS_BALLAST_BARE"  : "",
-	"SP_RESULTS_BALLAST_ESD"   : "./hydrodynamic_design_results/(P_23_001)SP_RESULTS_BALLAST_ESD.pdf",
-    "MODEL_TEST_FULL_REPORT"   : "./hydrodynamic_design_results/(P_23_001)MODEL_TEST_REPORT.pdf",
-    "CAVITATION_TEST_REPORT"   : "",
-	"APPENDIX_1"               : "",
-	"APPENDIX_2"               : "",
-	"APPENDIX_3"               : "",
-	"APPENDIX_4"               : "",
-	"APPENDIX_5"               : "",
-	"COMMENTS"                 : "13K 메탄올 추진선박"
-    {
-        "ADVANCE_RATIO_UNIT": "J",
-        "ADVANCE_RATIO_VALUE": [
-            0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.859
-        ],
-        "KT_UNIT": "KT",
-        "KT_VALUE": [
-            0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.859 
-        ],
+	"TABLE_NAME": "HYDRODYNAMIC_DESIGN_RESULTS",
+	"PROJECT_NO": "P_23_001",
+	"HULLFORM_DEVELOP_REPORT": "./hydrodynamic_design_results/(P_23_001)HULLFORM_DEVELOP_REPORT.pdf",
+	"LINES_IGES_WIRE": "./hydrodynamic_design_results/(P_23_001)LINES_IGES_WIRE.igs",
+	"LINES_IGES_SURFACE": "./hydrodynamic_design_results/(P_23_001)LINES_IGES_SURFACE.igs",
+	"LINES_HOPT": "./hydrodynamic_design_results/(P_23_001)LINES_HOPT.hopt",
+	"LINES_DMP": "./hydrodynamic_design_results/(P_23_001)LINES_DMP.dmp",
+	"LINES_STL": "./hydrodynamic_design_results/(P_23_001)LINES_STL.stl",
+	"LINES_OFFSET": "./hydrodynamic_design_results/(P_23_001)LINES_OFFSET.dat",
+	"PNG_BIRD_EYE_VIEW": "./hydrodynamic_design_results/(P_23_001)PNG_BIRD_EYE_VIEW.png",
+	"PNG_SIDE_FRONT_VIEW": "./hydrodynamic_design_results/(P_23_001)PNG_SIDE_FRONT_VIEW.png",
+	"ESD_DESIGN_REPORT": "./hydrodynamic_design_results/(P_23_001)ESD_DESIGN_REPORT.pdf",
+	"ESD_DRAWING": "./hydrodynamic_design_results/(P_23_001)ESD_DRAWING.pdf",
+	"PROPELLER_DESIGN_REPORT": "./hydrodynamic_design_results/(P_23_001)PROPELLER_DESIGN_REPORT.pdf",
+	"PROPELLER_DRAWING": "./hydrodynamic_design_results/(P_23_001)PROPELLER_DRAWING.pdf",
+	"RUDDER_DRAWING": "./hydrodynamic_design_results/(P_23_001)RUDDER_DRAWING.igs",
+	"SP_HYDROSTATIC_DATA": "./hydrodynamic_design_results/(P_23_001)SP_HYDROSTATIC_DATA.pdf",
+	"WAKE_MEASUREMENT_RESULT": "./hydrodynamic_design_results/(P_23_001)WAKE_MEASUREMENT_RESULT.pdf",
+	"SP_RESULTS_DESIGN_BARE": "",
+	"SP_RESULTS_DESIGN_ESD": "",
+	"SP_RESULTS_SCANT_BARE": "./hydrodynamic_design_results/(P_23_001)SP_RESULTS_SCANT_BARE.pdf",
+	"SP_RESULTS_SCANT_ESD": "./hydrodynamic_design_results/(P_23_001)SP_RESULTS_SCANT_ESD.pdf",
+	"SP_RESULTS_EEDI_BARE": "",
+	"SP_RESULTS_EEDI_ESD": "",
+	"SP_RESULTS_BALLAST_BARE": "",
+	"SP_RESULTS_BALLAST_ESD": "./hydrodynamic_design_results/(P_23_001)SP_RESULTS_BALLAST_ESD.pdf",
+	"MODEL_TEST_FULL_REPORT": "./hydrodynamic_design_results/(P_23_001)MODEL_TEST_REPORT.pdf",
+	"CAVITATION_TEST_REPORT": "",
+	"APPENDIX_1": "",
+	"APPENDIX_2": "",
+	"APPENDIX_3": "",
+	"APPENDIX_4": "",
+	"APPENDIX_5": "",
+	"COMMENTS": {
+		"COMMENT": "13K 메탄올 추진선박",
+		"ADVANCE_RATIO_UNIT": "J",
+		"ADVANCE_RATIO_VALUE": [
+			0.0,
+			0.1,
+			0.2,
+			0.3,
+			0.4,
+			0.5,
+			0.6,
+			0.7,
+			0.8,
+			0.859
+		],
+		"KT_UNIT": "KT",
+		"KT_VALUE": [
+			0.0,
+			0.1,
+			0.2,
+			0.3,
+			0.4,
+			0.5,
+			0.6,
+			0.7,
+			0.8,
+			0.859
+		],
 		"10KQ_UNIT": "10KQ",
-        "10KQ_VALUE": [
-            0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.859 
-        ],
+		"10KQ_VALUE": [
+			0.0,
+			0.1,
+			0.2,
+			0.3,
+			0.4,
+			0.5,
+			0.6,
+			0.7,
+			0.8,
+			0.859
+		],
 		"EFFICIENCY_UNIT": "EFF.",
-        "EFFICIENCY_VALUE": [
-            0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.859 
-        ]
-    }
+		"EFFICIENCY_VALUE": [
+			0.0,
+			0.1,
+			0.2,
+			0.3,
+			0.4,
+			0.5,
+			0.6,
+			0.7,
+			0.8,
+			0.859
+		]
+	}
 }
-  
-  
