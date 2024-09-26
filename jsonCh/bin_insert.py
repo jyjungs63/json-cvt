@@ -6,7 +6,7 @@ def insert_blob(image_path):
     'host': 'localhost',       # DB 서버 주소
     'user': 'root',   # MariaDB 사용자 이름
     'password': 'manager', # MariaDB 비밀번호 mac mini
-    'database': 'happyzip', # 사용할 데이터베이스 이름
+    'database': 'test', # 사용할 데이터베이스 이름
     }
 
     # 데이터베이스 연결
@@ -39,4 +39,5 @@ def insert_blob(image_path):
     connection.close()
 
 # 사용 예
-insert_blob('/Users/jinyoung/happy.jpeg')
+#insert_blob('/Users/jinyoung/happy.jpeg')
+insert_blob('/Users/jinyoung/json-cvt/jsonCh/P_23_001/hydrodynamic_design_results/(P_23_001)ESD_DESIGN_REPORT.pdf')
