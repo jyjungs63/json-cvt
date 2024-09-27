@@ -1,6 +1,6 @@
 {
 	"TABLE_NAME" : "SHIP_INITIAL_DESIGN_RESULTS",
-	"PROJECT_NO" : "P_23_001",                     // INITIAL DESIGN RESULTS
+	"PROJECT_NO" : "P_23_001",                     
 	"BASIC_SCHEME"             : "./ship_initial_results/(P_23_001)Basic_Scheme.pdf",
 	"LIGHTWEIGHT_DISTRIBUTION" : "",
 	"GENERAL_ARRANGEMENT"      : "./ship_initial_results/(P_23_001)GENERAL_ARRANGEMENT.pdf",

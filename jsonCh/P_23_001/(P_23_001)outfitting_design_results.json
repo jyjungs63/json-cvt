@@ -1,6 +1,6 @@
 {
 	"TABLE_NAME" : "OUTFITTING DESIGN RESULTS",
-	"PROJECT_NO" : "P_23_001",                     // OUTFITTING DESIGN RESULTS
+	"PROJECT_NO" : "P_23_001",                     
 	"MACHINARY_ARRANGEMENT"    : "./outfitting_design_results/(P_23_001)MACHINARY_ARRANGEMENT.pdf",
 	"CWATER_HEAT_BALANCE"      : "./outfitting_design_results/(P_23_001)CWATER_HEAT_BALANCE.pdf",
 	"LFSS_FLOW_DIAGRAM"        : "./outfitting_design_results/(P_23_001)LFSS_FLOW_DIAGRAM.pdf",
@@ -11,7 +11,7 @@
 	"AIP_CERTIFICATION"        : "./outfitting_design_results/(P_23_001)AIP_CERTIFICATION",
 	"APPENDIX_1"               : "./outfitting_design_results/(P_23_001)METHANOL_ARRANGEMENT.pdf",
 	"APPENDIX_2"               : "./outfitting_design_results/(P_23_001)ALTERNATIVE_PROPULSION.pdf",
-	"APPENDIX_3"               : "./outfitting_design_results/(P_23_001)FGSS_PandID",
+	"APPENDIX_3"               : "./outfitting_design_results/(P_23_001)FGSS_PandID.pdf",
 	"APPENDIX_4"               : "",
 	"APPENDIX_5"               : "",
 	"APPENDIX_6"               : "",

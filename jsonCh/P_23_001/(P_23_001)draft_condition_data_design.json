@@ -1,0 +1,31 @@
+{
+	"TABLE_NAME" : "DRAFT_CONDITION_DATA",
+	"PROJECT_NO" : "P_23_001",
+	"DRAFT_CONDITION"          :               0, 
+	"VALUE" : {
+		"LWL"                  :           125.5,  
+		"DRAFT_FORE"           :            8.55,  
+		"DRAFT_AFT"            :            8.55, 
+		"LOB"                  :           5.809,  
+		"BOD"                  :           2.456,  
+		"FN"                   :           0.193,  
+		"CB"                   :          0.7820,  
+		"CM"                   :          0.9950,  
+		"CW"                   :          0.8940,  
+        "CP"                   :          0.7860,  
+		"LCB"                  :            0.99,  
+		"KB"                   :           4.504,  
+		"WET_SURFACE"          :          4030.8,  
+		"WET_BILGE_KEEL"       :            40.8,  
+		"TRANS_PROJ_AREA"      :             342   
+	},
+	"CP_VALUE" : {
+		"STATION_NUMBER_UNIT"  : "ST",             
+		"STATION_NUMBER_VALUE" : [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9],
+		"CP_UNIT"              : "CP",             
+		"CP_VALUE"             : [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+    },
+	"COMMENTS"             : "13K METHANOL PRODUCT CARRIER"
+}
+  
+  

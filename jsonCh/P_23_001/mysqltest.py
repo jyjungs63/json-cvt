@@ -88,44 +88,117 @@ def insert_data_to_db(data):
     try:
         with connection.cursor() as cursor:
             # JSON 데이터를 삽입할 테이블명 및 컬럼 구성
-            if data['TABLE_NAME'] == "SHIP_PROJECT_DATA":
+            if data['TABLE_NAME'] == "SHIP_PROJECT_DATA":   ## OK 
                 sql = """
                 INSERT INTO SHIP_PROJECT_DATA (PROJECT_NO, SHIP_TITLE, GENERAL_INFORMATION, SHIP_INFORMATION, ENGINE_ROOM,PROPELLER,ETC) 
-                VALUES (%s, %s, %s, %s, %s, %s,%s)
+                VALUES (%s, %s, %s, %s, %s, %s, %s)
                 """
                 # 데이터 삽입
                 #for entry in data:
-                cursor.execute(sql, (str(data['PROJECT_NO']), str(data['SHIP_TITLE']), str(data['GENERAL_INFORMATION']),str(data['SHIP_INFORMATION']),
-                str(data['ENGINE_ROOM']),str(data['PROPELLER']),str(data['ETC']) ))
-            elif data['TABLE_NAME'] == "DRAFT_CONDITION_DATA":
+                t0 = str(data['PROJECT_NO'])
+                t1 = str(data['SHIP_TITLE'])
+                t2 = str(data['GENERAL_INFORMATION'])
+                t3 = str(data['SHIP_INFORMATION'])
+                t4 = str(data['ENGINE_ROOM'])
+                t5 = str(data['PROPELLER'])
+                t6 = str(data['ETC']) 
+
+                cursor.execute(sql, (t0, t1, t2, t3,t4,t5,t6))
+
+            elif data['TABLE_NAME'] == "DRAFT_CONDITION_DATA":  # OK
                 sql = """
                 INSERT INTO DRAFT_CONDITION_DATA (PROJECT_NO, DRAFT_CONDITION, VALUE, CP_VALUE, COMMENT) 
                 VALUES (%s, %s, %s, %s, %s)
                 """
                 # 데이터 삽입
                 #for entry in data:
-                cursor.execute(sql, (str(data['PROJECT_NO']), str(data['DRAFT_CONDITION']), str(data['VALUE']),str(data['CP_VALUE']),
-                str(data['COMMENT']) ))
-            elif data['TABLE_NAME'] == "PROPELLER_DESIGN_RESULTS":
+                t0 = str(data['PROJECT_NO'])
+                b1 = (str(data['DRAFT_CONDITION'])) 
+                b2 = (str(data['VALUE'])) 
+                b3 = (str(data['CP_VALUE'])) 
+                t4 = str(data['COMMENTS'])
+                cursor.execute(sql, (t0, b1, b2, b3, t4 ))
+            elif data['TABLE_NAME'] == "PROPELLER_DESIGN_RESULTS":  # OK 
                 sql = """
                 INSERT INTO PROPELLER_DESIGN_RESULTS (PROJECT_NO, PROP_STATUS, VALUE, COMMENTS) 
-                VALUES (%s, %s, %s, %s, %s, %s,%s)
+                VALUES (%s, %s, %s, %s)
                 """
                 # 데이터 삽입
                 #for entry in data:
                 cursor.execute(sql, (str(data['PROJECT_NO']), str(data['PROP_STATUS']), str(data['VALUE']),str(data['COMMENTS']) ))                
-            elif data['TABLE_NAME'] == "SHIP_INITIAL_DESIGN_RESULTS":
+            elif data['TABLE_NAME'] == "SHIP_INITIAL_DESIGN_RESULTS":  # OK
                 sql = """
                 INSERT INTO SHIP_INITIAL_DESIGN_RESULTS (PROJECT_NO, BASIC_SCHEME, LIGHTWEIGHT_DISTRIBUTION, GENERAL_ARRANGEMENT, RUDDER_ARRANGEMENT,TRIM_STABILITY,DAMAGE_STABILITY,
-                EEDI_CALCULATION,SOLAS_VISIBILITY,TONNAGE_CAL,SRTP_RESULT,MIDSHIP_DRAWING,RULE_SCANTLING,OUTLINE_SPEC,POCKET_PLAN,REPORT_SUMMARY,PROJECT_FULL_REPORT,AIP_CERTIFICATION,
+                EEDI_CALCULATION,FREEBOARD,SOLAS_VISIBILITY,TONNAGE_CAL,SRTP_RESULT,MIDSHIP_DRAWING,RULE_SCANTLING,OUTLINE_SPEC,POCKET_PLAN,REPORT_SUMMARY,PROJECT_FULL_REPORT,AIP_CERTIFICATION,
                 APPENDIX_1,APPENDIX_2,APPENDIX_3,APPENDIX_4,APPENDIX_5,COMMENTS) 
-                VALUES (%s, %s, %s, %s, %s, %s,%s)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s,    %s, %s, %s, %s, %s, %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s)
                 """
                 # 데이터 삽입
                 #for entry in data:
-                cursor.execute(sql, (str(data['PROJECT_NO']), str(data['SHIP_TITLE']), str(data['GENERAL_INFORMATION']),str(data['SHIP_INFORMATION']),
-                str(data['ENGINE_ROOM']),str(data['PROPELLER']),str(data['ETC']) ))
-            elif data['TABLE_NAME'] == "HYDRODYNAMIC_DESIGN_RESULTS":
+                t0 = str(data['PROJECT_NO'])
+                b1 = read_file_as_blob(str(data['BASIC_SCHEME'])) 
+                b2 = read_file_as_blob(str(data['LIGHTWEIGHT_DISTRIBUTION'])) 
+                b3 = read_file_as_blob(str(data['GENERAL_ARRANGEMENT'])) 
+                b4 = read_file_as_blob(str(data['RUDDER_ARRANGEMENT'])) 
+                b5 = read_file_as_blob(str(data['TRIM_STABILITY'])) 
+                b6 = read_file_as_blob(str(data['DAMAGE_STABILITY'])) 
+                b7 = read_file_as_blob(str(data['EEDI_CALCULATION'])) 
+                b8 = read_file_as_blob(str(data['FREEBOARD'])) 
+                b9 = read_file_as_blob(str(data['SOLAS_VISIBILITY'])) 
+                b10 = read_file_as_blob(str(data['TONNAGE_CAL'])) 
+                b11 = read_file_as_blob(str(data['SRTP_RESULT'])) 
+                b12 = read_file_as_blob(str(data['MIDSHIP_DRAWING'])) 
+                b13 = read_file_as_blob(str(data['RULE_SCANTLING'])) 
+                b14 = read_file_as_blob(str(data['OUTLINE_SPEC'])) 
+                b15 = read_file_as_blob(str(data['POCKET_PLAN'])) 
+                b16 = read_file_as_blob(str(data['REPORT_SUMMARY'])) 
+                b17 = read_file_as_blob(str(data['PROJECT_FULL_REPORT'])) 
+                b18 = read_file_as_blob(str(data['AIP_CERTIFICATION'])) 
+                b19 = read_file_as_blob(str(data['APPENDIX_1'])) 
+                b20 = read_file_as_blob(str(data['APPENDIX_2'])) 
+                b21 = read_file_as_blob(str(data['APPENDIX_3'])) 
+                b22 = read_file_as_blob(str(data['APPENDIX_4'])) 
+                b23 = read_file_as_blob(str(data['APPENDIX_5'])) 
+                t24 = str(data['COMMENTS'])
+
+                cursor.execute(sql, (t0, 
+                b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,
+                b11,b12,b13,b14,b15,b16,b17,b18,b19,b20,
+                b21,b22,b23,t24
+                 ))  
+            elif data['TABLE_NAME'] == "OUTFITTING DESIGN RESULTS":  # OK
+                sql = """
+                INSERT INTO OUTFITTING_DESIGN_RESULTS (PROJECT_NO, MACHINARY_ARRANGEMENT, CWATER_HEAT_BALANCE, LFSS_FLOW_DIAGRAM, ACCOMODATION,MOORING_ARRANGEMENT,EQUIPMENT_NUMBER,
+                ELECTRIC_LOAD,AIP_CERTIFICATION,APPENDIX_1,APPENDIX_2,APPENDIX_3,APPENDIX_4,APPENDIX_5,APPENDIX_6,APPENDIX_7,APPENDIX_8,APPENDIX_9,COMMENTS) 
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s,    %s, %s, %s, %s, %s, %s, %s, %s , %s)
+                """
+                # 데이터 삽입
+                #for entry in data:
+                t0 = str(data['PROJECT_NO'])
+                b1 = read_file_as_blob(str(data['MACHINARY_ARRANGEMENT'])) 
+                b2 = read_file_as_blob(str(data['CWATER_HEAT_BALANCE'])) 
+                b3 = read_file_as_blob(str(data['LFSS_FLOW_DIAGRAM'])) 
+                b4 = read_file_as_blob(str(data['ACCOMODATION'])) 
+                b5 = read_file_as_blob(str(data['MOORING_ARRANGEMENT'])) 
+                b6 = read_file_as_blob(str(data['EQUIPMENT_NUMBER'])) 
+                b7 = read_file_as_blob(str(data['ELECTRIC_LOAD']))               
+                b8 = read_file_as_blob(str(data['AIP_CERTIFICATION'])) 
+                b9 = read_file_as_blob(str(data['APPENDIX_1'])) 
+                b10 = read_file_as_blob(str(data['APPENDIX_2'])) 
+                b11 = read_file_as_blob(str(data['APPENDIX_3'])) 
+                b12 = read_file_as_blob(str(data['APPENDIX_4'])) 
+                b13 = read_file_as_blob(str(data['APPENDIX_5'])) 
+                b14 = read_file_as_blob(str(data['APPENDIX_6'])) 
+                b15 = read_file_as_blob(str(data['APPENDIX_7'])) 
+                b16 = read_file_as_blob(str(data['APPENDIX_8'])) 
+                b17 = read_file_as_blob(str(data['APPENDIX_9'])) 
+                t18 = str(data['COMMENTS'])
+
+                cursor.execute(sql, (t0, 
+                b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,
+                b11,b12,b13,b14,b15,b16,b17,t18
+                 )) 
+            elif data['TABLE_NAME'] == "HYDRODYNAMIC_DESIGN_RESULTS":  # OK
                 sql = """
                 INSERT INTO HYDRODYNAMIC_DESIGN_RESULTS (PROJECT_NO, HULLFORM_DEVELOP_REPORT, LINES_IGES_WIRE, LINES_IGES_SURFACE, LINES_HOPT,LINES_DMP,LINES_STL,
                 LINES_OFFSET,PNG_BIRD_EYE_VIEW,PNG_SIDE_FRONT_VIEW,ESD_DESIGN_REPORT,ESD_DRAWING,PROPELLER_DESIGN_REPORT,PROPELLER_DRAWING,RUDDER_DRAWING,SP_HYDROSTATIC_DATA,WAKE_MEASUREMENT_RESULT,SP_RESULTS_DESIGN_BARE,
@@ -135,6 +208,7 @@ def insert_data_to_db(data):
                 """
                 # 데이터 삽입
                 #for entry in data:
+                t0 = str(data['PROJECT_NO'])
                 b1 = read_file_as_blob(str(data['HULLFORM_DEVELOP_REPORT'])) 
                 b2 = read_file_as_blob(str(data['LINES_IGES_WIRE'])) 
                 b3 = read_file_as_blob(str(data['LINES_IGES_SURFACE'])) 
@@ -166,12 +240,12 @@ def insert_data_to_db(data):
                 b29 = read_file_as_blob(str(data['APPENDIX_3'])) 
                 b30 = read_file_as_blob(str(data['APPENDIX_4'])) 
                 b31 = read_file_as_blob(str(data['APPENDIX_5'])) 
+                t32 = str(data['COMMENTS'])
 
-                cursor.execute(sql, (str(data['PROJECT_NO']), 
+                cursor.execute(sql, (t0, 
                 b1,b2,b3,b4,b5,b6,b7,b8,b9,b10,
                 b11,b12,b13,b14,b15,b16,b17,b18,b19,b20,
-                b21,b22,b23,b24,b25,b26,b27,b28,b29,b30,b31,
-                str(data['COMMENTS']) ))                
+                b21,b22,b23,b24,b25,b26,b27,b28,b29,b30,b31,t32 ))                
             
             connection.commit()  # 커밋
     finally:
